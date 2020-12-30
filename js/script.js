@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         poster.style.backgroundImage = 'url("img/bg.jpg")';
     };
-
+// dklcms;dc
     const sortArr = (arr) => {
         arr.sort();
     };
