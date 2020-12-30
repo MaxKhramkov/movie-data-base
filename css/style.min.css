@@ -22,16 +22,16 @@
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  width: 300px;
+  width: 150px;
   background: #ffd500;
 }
 .header__search form {
   position: relative;
-  width: 260px;
+  width: 120px;
   height: 30px;
 }
 .header__search form input {
-  width: 100%;
+  width: 50%;
   border: none;
   border-bottom: 2px solid #fff;
   background-color: transparent;
@@ -129,7 +129,7 @@
   text-transform: uppercase;
 }
 .promo__descr {
-  width: 481px;
+  width: 50%;
   font-weight: bold;
   font-size: 18px;
   line-height: 21px;
@@ -287,6 +287,11 @@
   outline: none;
   cursor: pointer;
 }
+
+.promo__interactive .add button:hover {
+  transform: scale(0.98);
+}
+
 .promo__interactive .add button:active {
   -webkit-transform: scale(0.95);
   transform: scale(0.95);
